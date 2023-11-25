@@ -1,4 +1,4 @@
-?php
+<?php
     $user = $pswd = "";
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $user = $_POST["user"];
